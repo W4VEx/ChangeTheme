@@ -1,0 +1,42 @@
+:root{
+    --bgcolor: #fff;
+    --bgdmcolor: #000;
+    --header: #000;
+    --dheader:#ebe00c;
+    --text: #888;
+    --dtext: #f6f;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    background-color: var(--bgcolor);
+
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--header);
+    margin: 2rem;
+}
+
+.txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text);
+    margin: 3rem;
+
+}
+
+.cbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
