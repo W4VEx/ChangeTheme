@@ -5,11 +5,11 @@ let btn = document.getElementById('header')
 
 function ChangeTheme(){
     
-  document.body.style.backgroundColor = "var(--bgdmcolor)";
-  h1.style.color = "var(--dheader)";
-  txt.style.color= "var(--dtext)";
-
-
+  // document.body.style.backgroundColor = "var(--bgdmcolor)";
+  // h1.style.color = "var(--dheader)";
+  // txt.style.color= "var(--dtext)";
+  
+  document.body.classList.toggle("darkmode")
 }
 
 

@@ -1,15 +1,18 @@
 :root{
-    --bgcolor: #fff;
-    --bgdmcolor: #000;
+    --bgcolor: #fff;  
     --header: #000;
-    --dheader:#ebe00c;
-    --text: #888;
-    --dtext: #f6f;
+    --text: #888;   
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+.darkmode{
+    --bgcolor: #000;
+    --header:#ebe00c;
+    --text: #f6f;
+
 }
 body{
 
